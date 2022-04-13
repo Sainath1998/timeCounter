@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Square+Peg&family=Ubuntu:wght@300&display=swap');
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins',sans-serif;
+    margin: 0;
+    background-image: url("images/background.jpg");
+    background-size: cover;
+    min-height: 100vh;   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+h1{
+    font-size: 4rem;
+    font-weight: bolder;
+}
+.countdown-container{
+    display: flex;
+}
+.big-text{
+    font-size: 6rem;
+    line-height: 1;
+    margin: 0 2rem;
+    font-weight: bolder;
+}
+.countdown-el {
+text-align: center;
+}
+.countdown-el span{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
